@@ -1,0 +1,55 @@
+html, body {
+	width: 100%;
+	margin: 0
+}
+
+body {
+	overflow: hidden;
+}
+
+#navigation {
+	background: #222;
+	border-bottom: 1px solid #111;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+a{
+	color: #fff;
+	display: inline-block;
+}
+#navigation > p {
+	display: block;
+	color: #fff;
+	font: normal normal 13px/24px Helvetica, sans-serif;
+	margin: 0;
+	padding: 8px 20px;
+	float: right;
+}
+
+h1 {
+	font: normal bold 36px/36px Helvetica, sans-serif;
+	padding-top: 20%;
+	text-align: center;
+}
+
+#content > div {
+	color: white;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.page-main{
+	background: #e06e52;
+}.page-2{
+	background: #32b467;
+}.page-3{
+	background: #9a0592;
+}.page-4{
+	background: #bf7d0b;
+}
